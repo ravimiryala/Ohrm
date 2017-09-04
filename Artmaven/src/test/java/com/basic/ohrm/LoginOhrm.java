@@ -26,7 +26,7 @@ public class LoginOhrm {
 @AfterClass
 public static void quit()
 {
-	System.out.println("close the browser");
+	System.out.println("close all the browser");
 	obj.quitBr();
 }
   
