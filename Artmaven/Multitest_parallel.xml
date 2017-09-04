@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  	<test name="chrome">
+   		<parameters>
+			<parameter name="browsertype" value="chrome" />
+			<parameter name="appurl" value="http://opensource.demo.orangehrmlive.com/" />
+		</parameters>
+      	<classes>
+      		<class name="com.basic.ohrm.LoginOhrm"/>
+    	</classes>
+	</test> <!-- Test -->
+	<test name="firefox">
+   		<parameters>
+			<parameter name="browsertype" value="firefox" />
+			<parameter name="appurl" value="http://opensource.demo.orangehrmlive.com/" />
+		</parameters>
+      	<classes>
+      		<class name="com.basic.ohrm.LoginOhrm"/>
+    	</classes>
+	</test> <!-- Test -->	
+</suite> <!-- Suite -->
